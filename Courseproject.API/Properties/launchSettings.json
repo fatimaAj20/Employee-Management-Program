@@ -1,0 +1,53 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1645",
+      "sslPort": 44306
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5153",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7104;http://localhost:5153",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_FILENAME": "Test.db",
+        "CLIENT_ID": "Secret",
+        "TENANT_ID": "Secret",
+        "CLIENT_SECRET": "Secret",
+        "AD_DOMAIN": "",
+        "CALLBACK_PATH": "/signin-oidc",
+        "IDENTITY_INSTANCE": "https://login.microsoftonline.com/",
+        "AUTH_URL": "",
+        "TOKEN_URL": "",
+        "SCOPE": "",
+        "AZURE_STORAGE_CONNECTION_STRING": "",
+        "AZURE_STORAGE_CONTAINER_NAME": ""
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
